@@ -3,13 +3,11 @@ Alerium-Productions
 
 Custom Tracks for sale for Artists to use in original music
 
-v1.5
-Future Development
+v1.5 - Future Development
 ---------------------
 Plans are to incorporate <a href="http://getbootstrap.com/2.3.2/index.html">Bootstrap</a> to provide a cleaner, more easily maintained, and more user-friendly site. The core design will likely be fairly similar.
 
-v1.0
-November 2, 2014
+v1.0 - November 2, 2014
 ---------------------
 Landing page has custom music player & sales interface, through <a href="http://www.soundgine.com/">soundgine</a>. It handles everything from start to finish - previewing tracks, licensing options, purchase options, and delivery of purchased tracks. Most importantly, though, it provides an easy-to-use interface for the site owner to upload and manage content, pricing, and anything else with great ease.
 
