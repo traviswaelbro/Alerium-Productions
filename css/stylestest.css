@@ -1,0 +1,424 @@
+html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-image: url('../images/textured.jpg');
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: 'boycott';
+
+  src: url('../fonts/boycott.eot');
+}
+@font-face {
+  font-family: 'boycott';
+
+  src: url('../fonts/boycott.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'allages';
+
+  src: url('../fonts/allages_bolditalic.ttf');
+}
+@font-face {
+  font-family: 'jungle';
+
+  src: url('../fonts/urbanjungle.otf');
+}
+.customfont
+{
+  font-family: 'boycott', serif;
+}
+h1
+{
+  font-size: 3em;
+
+  color: #fff;
+}
+h3
+{
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a
+{
+  font-family: Titillium Web, sans-serif;
+}
+audio
+{
+  display: block;
+
+  width: 77%;
+  margin: 0 auto;
+  padding: 1em;
+}
+header
+{
+  overflow: hidden;
+
+  padding: 0 0 .5em 0;
+  /* fallback for browsers that don't support rgba */
+
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.35);
+  line-height: 0;
+}
+footer
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2.5em;
+  padding: .5em;
+
+  background-color: #242830;
+}
+form
+{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+
+  border-radius: 5px;
+  background: rgb(153,153,153);
+  background: rgba(153,153,153,.5);
+}
+form div
+{
+  display: inline-block;
+
+  width: 100%;
+}
+input,
+textarea
+{
+  font-family: Titillium Web, sans-serif;
+  font-size: 3em;
+
+  width: 90%;
+  margin: 0 0 10px 0;
+  padding: 0;
+
+  text-align: center;
+
+  color: black;
+  border: 2px solid white;
+  border-radius: 1px;
+  background: rgb(255,255,255);
+  background: rgba(255,255,255,.5);
+  -webkit-box-shadow: inset 0 0 8px  rgba(0,0,0,.1),
+  0 0 16px rgba(0,0,0,.1);
+     -moz-box-shadow: inset 0 0 8px  rgba(0,0,0,.1),
+  0 0 16px rgba(0,0,0,.1);
+          box-shadow: inset 0 0 8px  rgba(0,0,0,.1),
+  0 0 16px rgba(0,0,0,.1);
+}
+textarea
+{
+  font-size: 1.5em;
+
+  padding: 1em;
+}
+nav ul
+{
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+/* ----- Header ----- */
+.navbar-brand
+{
+  display: inline-block;
+  height: auto;
+  padding: 0;
+  font-family: jungle;
+  font-size: 5em;
+  line-height: 100%;
+
+  text-align: center;
+} 
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a
+{
+    color: #fff;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li:hover > a
+{
+    color: #c3121c;
+}
+.navbar-right li a
+{
+  font-family: jungle;
+  font-size: 2.5em;
+
+  margin: 0.75em 0;
+
+  list-style: none;
+}
+.navbar-inverse
+{
+  display: table;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  table-layout: fixed;
+}
+nav
+{
+  padding: 1em;
+}
+/* ----- End Header ----- */
+
+.line
+{
+  width: 15%;
+  height: .2em;
+  margin: 0 auto 2em;
+
+  background-color: #c3121c;
+}
+.social .line,
+.artist .line
+{
+  margin: 0 auto .5em;
+}
+
+/* ----- Hero ----- */
+.jumbotron
+{
+  display: table;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  table-layout: fixed;
+
+  background: transparent;
+}
+.jumbotron .container
+{
+  display: table-cell;
+
+  text-align: center;
+  vertical-align: middle;
+}
+.player
+{
+  width: 100%;
+  padding: 2em;
+}
+iframe
+{
+  width: 100%;
+  max-width: 960px;
+}
+/* ----- End Hero ----- */
+
+
+/* ----- Social ----- */
+.social
+{
+  width: 100%;
+  padding: 0 0 3em 0;
+}
+.buttons
+{
+  padding: 0;
+}
+.jumbotron .social, .jumbotron .buttons
+{
+  margin: 0;
+  padding: 0;
+}
+.buttons a
+{
+  font-size: 4em;
+
+  padding: 0 .2em 0 .2em;
+
+  color: #fff;
+  text-shadow: 1px 1px 40px #000;
+}
+.buttons a:hover
+{
+  color: #fff;
+  border-radius: 4px;
+  background-color: rgb(142,142,142);
+  background-color: rgba(142,142,142,.25);
+}
+.fa-facebook
+{
+  color: #3b5998;
+}
+.fa-twitter
+{
+  color: #4099ff;
+}
+.fa-youtube
+{
+  color: #c3121c;
+}
+.fa-soundcloud
+{
+  color: #f70;
+}
+/* ----- End Social ----- */
+
+/* ----- About ----- */
+.about
+{
+  padding: 3em 0 3em 0;
+}
+.bio
+{
+  line-height: 200%;
+
+  display: block;
+
+  width: 65%;
+  margin: auto;
+  padding-bottom: 2em;
+
+  color: #fff;
+}
+/* ----- End About ----- */
+
+/* ----- Featured ----- */
+.wrapper
+{
+  position: relative;
+
+  min-height: 100%;
+}
+.featured
+{
+  padding: 3em 0 3em 0;
+}
+.featured .buttons
+{
+  text-align: center;
+}
+.featured ul
+{
+  margin: 0;
+  padding: 0;
+}
+.artist
+{
+  display: inline-block;
+
+  width: 50%;
+  margin: 1em 0 1em 0;
+  padding: 2em 1em 1em 1em;
+
+  text-align: center;
+
+  background-color: #fff;
+}
+.artist .bio
+{
+  font-size: 1.25em;
+
+  width: 80%;
+  padding: 1em 0 1em 0;
+
+  color: black;
+}
+.artist .line
+{
+  width: 25%;
+  height: .25em;
+}
+.artist img
+{
+  width: 75%;
+}
+.artist a
+{
+  font-size: 4em;
+
+  padding: .5em;
+}
+.artist .social
+{
+  margin-top: 1em;
+  padding: 0;
+}
+/* ----- End Featured ----- */
+
+/* ----- Contact ----- */
+.contact
+{
+  padding: 3em 0 4.5em 0;
+}
+.contact h1
+{
+  color: #fff;
+}
+.contactform
+{
+  padding: 2em 0 2em 0;
+}
+#name,
+#email
+{
+  width: 90%;
+  height: 2em;
+}
+#messagearea
+{
+  width: 100%;
+}
+#submit
+{
+  font-size: 2em;
+
+  width: 90%;
+
+  color: #fff;
+  border: none;
+  background: #c3121c;
+}
+#submit:hover
+{
+  color: #c3121c;
+  background-color: #fff;
+}
+/* ----- End Contact ----- */
+
+/* ----- Credit (footer) ----- */
+.credit h6
+{
+  font-size: .7em;
+  line-height: 15%;
+
+  width: 90%;
+
+  text-align: right;
+
+  color: #fff;
+}
+.credit a
+{
+  font-size: 1.5em;
+}
